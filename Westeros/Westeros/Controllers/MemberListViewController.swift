@@ -9,7 +9,6 @@
 import UIKit
 
 class MemberListViewController: UIViewController {
-    
     // MARK: - Outlets
     @IBOutlet weak var tableView: UITableView!
     
@@ -27,10 +26,11 @@ class MemberListViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - LifeCycle
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        tableView.delegate = self
     }
         
     override func viewDidAppear(_ animated: Bool) {
@@ -57,19 +57,30 @@ extension MemberListViewController: UITableViewDataSource {
         return model.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellId = "PersonCell"
-        
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        
         let person = model[indexPath.row]
         
-        var cell = tableView.dequeueReusableCell(withIdentifier: cellId)
+        var cell = tableView.dequeueReusableCell(withIdentifier: Constants.personCell)
         if (cell == nil) {
-            cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellId)
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: Constants.personCell)
         }
         
         cell?.textLabel?.text = person.name
         cell?.detailTextLabel?.text = person.alias
         
         return cell!
+    }
+}
+
+extension MemberListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let personObj = member(at: indexPath.row)
+        navigationController?.pushViewController(MemberDetailViewController(model: personObj), animated: true)
+    }
+}
+
+extension MemberListViewController {
+    func member(at row: Int) -> Person {
+        return model[row]
     }
 }

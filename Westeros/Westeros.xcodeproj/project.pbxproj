@@ -18,6 +18,15 @@
 		32946A4B2154078D00195CF3 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A4A2154078D00195CF3 /* Season.swift */; };
 		32946A4D21540B2A00195CF3 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A4C21540B2A00195CF3 /* Episode.swift */; };
 		32946A4F2154329900195CF3 /* EpisodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A4E2154329900195CF3 /* EpisodeTests.swift */; };
+		32946A51215690FD00195CF3 /* SeasonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A50215690FD00195CF3 /* SeasonListViewController.swift */; };
+		32946A542156944900195CF3 /* SeasonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A522156944900195CF3 /* SeasonDetailViewController.swift */; };
+		32946A552156944900195CF3 /* SeasonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A532156944900195CF3 /* SeasonDetailViewController.xib */; };
+		32946A5721569A7A00195CF3 /* EpisodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */; };
+		32946A5A21569F4600195CF3 /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */; };
+		32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */; };
+		32946A652156E10A00195CF3 /* WesterosSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */; };
+		32946A682156E9E500195CF3 /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A662156E9E500195CF3 /* MemberDetailViewController.swift */; };
+		32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A672156E9E500195CF3 /* MemberDetailViewController.xib */; };
 		329E5F412149A18A00BFED5B /* stark.png in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F3E2149A18900BFED5B /* stark.png */; };
 		329E5F422149A18A00BFED5B /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F3F2149A18A00BFED5B /* lannister.jpg */; };
 		329E5F432149A18A00BFED5B /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F402149A18A00BFED5B /* targaryen.jpg */; };
@@ -57,6 +66,15 @@
 		32946A4A2154078D00195CF3 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		32946A4C21540B2A00195CF3 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		32946A4E2154329900195CF3 /* EpisodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTests.swift; sourceTree = "<group>"; };
+		32946A50215690FD00195CF3 /* SeasonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonListViewController.swift; sourceTree = "<group>"; };
+		32946A522156944900195CF3 /* SeasonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDetailViewController.swift; sourceTree = "<group>"; };
+		32946A532156944900195CF3 /* SeasonDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonDetailViewController.xib; sourceTree = "<group>"; };
+		32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewController.swift; sourceTree = "<group>"; };
+		32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
+		32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosSplitViewController.swift; sourceTree = "<group>"; };
+		32946A662156E9E500195CF3 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
+		32946A672156E9E500195CF3 /* MemberDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberDetailViewController.xib; sourceTree = "<group>"; };
 		329E5F3E2149A18900BFED5B /* stark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stark.png; sourceTree = "<group>"; };
 		329E5F3F2149A18A00BFED5B /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
 		329E5F402149A18A00BFED5B /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
@@ -115,6 +133,15 @@
 				32946A2C215059D000195CF3 /* HouseListViewController.swift */,
 				32946A2E21518A0C00195CF3 /* MemberListViewController.swift */,
 				32946A2F21518A0C00195CF3 /* MemberListViewController.xib */,
+				32946A50215690FD00195CF3 /* SeasonListViewController.swift */,
+				32946A522156944900195CF3 /* SeasonDetailViewController.swift */,
+				32946A532156944900195CF3 /* SeasonDetailViewController.xib */,
+				32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */,
+				32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */,
+				32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */,
+				32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */,
+				32946A662156E9E500195CF3 /* MemberDetailViewController.swift */,
+				32946A672156E9E500195CF3 /* MemberDetailViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,12 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				329E5F432149A18A00BFED5B /* targaryen.jpg in Resources */,
+				32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */,
 				329E5F422149A18A00BFED5B /* lannister.jpg in Resources */,
+				32946A552156944900195CF3 /* SeasonDetailViewController.xib in Resources */,
 				32946A2B21503D1800195CF3 /* HouseDetailViewController.xib in Resources */,
 				32BE0BDC2141B37C00A9B501 /* LaunchScreen.storyboard in Resources */,
 				329E5F412149A18A00BFED5B /* stark.png in Resources */,
 				32BE0BD92141B37C00A9B501 /* Assets.xcassets in Resources */,
 				32946A3121518A0C00195CF3 /* MemberListViewController.xib in Resources */,
+				32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32946A24214EA79E00195CF3 /* HouseWebViewController.swift in Sources */,
+				32946A5721569A7A00195CF3 /* EpisodeListViewController.swift in Sources */,
 				32946A332151A86D00195CF3 /* Constants.swift in Sources */,
 				329E5F552149BCC400BFED5B /* Repository.swift in Sources */,
 				329E5F502149B9F200BFED5B /* UIViewController+Navigation.swift in Sources */,
+				32946A51215690FD00195CF3 /* SeasonListViewController.swift in Sources */,
 				329E5F4C2149A39E00BFED5B /* HouseDetailViewController.swift in Sources */,
 				32946A352152DACC00195CF3 /* Notification+Name.swift in Sources */,
 				32946A3021518A0C00195CF3 /* MemberListViewController.swift in Sources */,
@@ -313,8 +345,12 @@
 				32946A4B2154078D00195CF3 /* Season.swift in Sources */,
 				32946A4D21540B2A00195CF3 /* Episode.swift in Sources */,
 				32BE0BF52141BD9400A9B501 /* House.swift in Sources */,
+				32946A5A21569F4600195CF3 /* EpisodeDetailViewController.swift in Sources */,
+				32946A542156944900195CF3 /* SeasonDetailViewController.swift in Sources */,
 				32BE0BD22141B37500A9B501 /* AppDelegate.swift in Sources */,
+				32946A652156E10A00195CF3 /* WesterosSplitViewController.swift in Sources */,
 				32BE0BFB2141C91500A9B501 /* Person.swift in Sources */,
+				32946A682156E9E500195CF3 /* MemberDetailViewController.swift in Sources */,
 				32946A2D215059D000195CF3 /* HouseListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

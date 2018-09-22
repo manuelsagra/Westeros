@@ -21,7 +21,6 @@ class HouseDetailViewController: UIViewController {
     init(model: House) {
         self.model = model        
         
-        //super.init(nibName: "HouseDetailViewControlller", bundle: Bundle.main)
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -31,6 +30,13 @@ class HouseDetailViewController: UIViewController {
     }   
     
     // MARK: - Life cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+        navigationItem.leftItemsSupplementBackButton = true
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -43,14 +49,14 @@ class HouseDetailViewController: UIViewController {
     // MARK: - Sync
     func syncModelWithView() {
         self.title = self.model.name
-        houseNameLabel.text = "House \(model.name)"
+        houseNameLabel.text = "Casa \(model.name)"
         sigilImageView.image = model.sigil.image
         wordsLabel.text = model.words
     }
     
     func addButtons() {
         let buttonWiki = UIBarButtonItem(title: "Wiki", style: .plain, target: self, action: #selector(wikiButtonPushed))
-        let buttonMembers = UIBarButtonItem(title: "Members", style: .plain, target: self, action: #selector(membersButtonPushed))
+        let buttonMembers = UIBarButtonItem(title: "Miembros", style: .plain, target: self, action: #selector(membersButtonPushed))
         
         navigationItem.rightBarButtonItems = [
             buttonWiki,

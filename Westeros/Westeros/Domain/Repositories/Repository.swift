@@ -20,6 +20,8 @@ protocol HouseFactory {
     
     func houses(filteredBy: HouseToBool) -> [House]
 }
+
+typealias SeasonToBool = (Season) -> Bool
 protocol SeasonFactory {
     var seasons: [Season] { get }
 }
@@ -29,6 +31,12 @@ final class LocalFactory {
 }
 
 extension LocalFactory: HouseFactory {
+    enum HouseNames: String {
+        case Stark = "Stark"
+        case Lannister = "Lannister"
+        case Targaryen = "Targaryen"
+    }
+    
     var houses: [House] {
         // Sigils
         let starkSigil = Sigil(image: UIImage(named: "stark")!, description: "Lobo Huargo")
@@ -44,9 +52,11 @@ extension LocalFactory: HouseFactory {
         _ = Person(name: "Robb", alias: "El Joven Lobo", house: starkHouse)
         _ = Person(name: "Arya", house: starkHouse)
         _ = Person(name: "Eddard", alias: "Ned", house: starkHouse)
+        
         _ = Person(name: "Tyrion", alias: "El Enano", house: lannisterHouse)
         _ = Person(name: "Cersei", house: lannisterHouse)
         _ = Person(name: "Jaime", alias: "El matarreyes", house: lannisterHouse)
+        
         _ = Person(name: "Daenerys", alias: "Madre de dragones", house: targaryenHouse)
         
         return [
@@ -57,8 +67,11 @@ extension LocalFactory: HouseFactory {
     }
     
     func house(named: String) -> House? {
-        //return houses.filter { $0.name.lowercased() == named.lowercased() }.first
         return houses.first { $0.name.lowercased() == named.lowercased() }
+    }
+    
+    func house(named enumValue: HouseNames) -> House? {
+        return house(named: enumValue.rawValue)
     }
     
     func houses(filteredBy: HouseToBool) -> [House] {
@@ -117,5 +130,9 @@ extension LocalFactory: SeasonFactory {
             season6,
             season7
         ].sorted()
+    }
+    
+    func seasons(filteredBy: SeasonToBool) -> [Season] {
+        return seasons.filter(filteredBy)
     }
 }

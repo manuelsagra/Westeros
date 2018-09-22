@@ -18,20 +18,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        // Creamos los modelos
+        // Modelos
         let houses = Repository.local.houses
+        let seasons = Repository.local.seasons
         
-        // Maestro / Detalle -> Combinador
-        let houseListViewController = HouseListViewController(model: houses)
-        let houseDetailViewController = HouseDetailViewController(model: houseListViewController.lastSelectedHouse())
+        // Maestro / Detalle
+        let houseList = HouseListViewController(model: houses)
+        let houseDetail = HouseDetailViewController(model: houseList.lastSelectedHouse())
+        houseList.delegate = houseDetail
+        let houseDetailWrapped = houseDetail.wrappedInNavigation()
         
-        houseListViewController.delegate = houseDetailViewController
+        let seasonList = SeasonListViewController(model: seasons)
+        let seasonDetail = SeasonDetailViewController(model: seasonList.lastSelectedSeason())
+        seasonList.delegate = seasonDetail
+        let seasonDetailWrapped = seasonDetail.wrappedInNavigation()
         
-        let splitViewController = UISplitViewController()
-        splitViewController.viewControllers = [
-            houseListViewController.wrappedInNavigation(),
-            houseDetailViewController.wrappedInNavigation()
+        // TabBar
+        let tabBar = UITabBarController()
+        tabBar.viewControllers = [
+            houseList.wrappedInNavigation(),
+            seasonList.wrappedInNavigation()
         ]
+        
+        let splitViewController = WesterosSplitViewController(houseDetail: houseDetailWrapped, seasonDetail: seasonDetailWrapped)
+        splitViewController.viewControllers = [
+            tabBar,
+            houseDetailWrapped
+        ]
+        tabBar.delegate = splitViewController
         
         // Asignamos el root controller
         window?.rootViewController = splitViewController

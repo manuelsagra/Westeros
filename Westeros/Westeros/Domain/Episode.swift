@@ -12,9 +12,12 @@ final class Episode {
     // MARK: - Properties
     let title: String
     let number: Int
-    let airDate: Date
+    let airDate: Date    
     let excerpt: String
+    
+    private let _dateFormatter = DateFormatter()
     weak var season: Season?
+    
     
     // MARK: - Initialization
     init(title: String, number: Int, excerpt: String, date: Date, season: Season?) {
@@ -23,10 +26,17 @@ final class Episode {
         self.excerpt = excerpt
         self.airDate = date
         self.season = season
+        self._dateFormatter.dateFormat = "yyyy-MM-dd"
         
         if let s = season {
             s.add(episode: self)
         }
+    }
+}
+
+extension Episode {
+    var airDateToString: String {
+        return _dateFormatter.string(from: airDate)
     }
 }
 

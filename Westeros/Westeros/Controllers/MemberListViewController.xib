@@ -20,13 +20,18 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9b-AR-u6O">
-                    <rect key="frame" x="0.0" y="26" width="375" height="641"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9b-AR-u6O">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y9b-AR-u6O" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="1JW-b9-7EH"/>
+                <constraint firstItem="Y9b-AR-u6O" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="la3-lb-ja3"/>
+                <constraint firstItem="Y9b-AR-u6O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nwY-Ww-8n2"/>
+                <constraint firstItem="Y9b-AR-u6O" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="uu0-0A-vOm"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="132" y="154.27286356821591"/>
         </view>

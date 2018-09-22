@@ -51,6 +51,17 @@ class RepositoryTests: XCTestCase {
         XCTAssertNil(keepcoding)
     }
     
+    func testLocalRepositoryReturnsHouseByNameWithEnum() {
+        let stark = Repository.local.house(named: .Stark)
+        XCTAssertEqual(stark?.name, "Stark")
+        
+        let lannister = Repository.local.house(named: .Lannister)
+        XCTAssertEqual(lannister?.name, "Lannister")
+        
+        let keepcoding = Repository.local.house(named: "Keepcoding")
+        XCTAssertNil(keepcoding)
+    }
+    
     func testLocalRepositoryHouseFiltering() {
         let filtered = Repository.local.houses { $0.count == 1 }
         XCTAssertEqual(filtered.count, 1)
@@ -73,5 +84,13 @@ class RepositoryTests: XCTestCase {
         for season in localSeasons {
             XCTAssertGreaterThan(season.count, 0)
         }
+    }
+    
+    func testLocalRepositorySeasonFiltering() {
+        let filtered = Repository.local.seasons { $0.count == 2 }
+        XCTAssertEqual(filtered.count, 7)
+        
+        let filtered2 = Repository.local.seasons { $0.count == 100000 }
+        XCTAssertTrue(filtered2.isEmpty)
     }
 }

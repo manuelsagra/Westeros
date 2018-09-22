@@ -36,7 +36,7 @@ class HouseWebViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - Lifecycle
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         syncModelWithView()

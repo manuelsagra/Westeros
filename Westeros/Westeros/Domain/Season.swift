@@ -12,7 +12,8 @@ typealias Episodes = Set<Episode>
 final class Season {
     let name: String
     let launchDate: Date
-    let _dateFormatter = DateFormatter()
+    
+    private let _dateFormatter = DateFormatter()
     private var _episodes: Episodes
     
     init(name: String, date: Date) {
