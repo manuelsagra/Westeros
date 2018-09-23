@@ -14,6 +14,7 @@
                 <outlet property="aliasLabel" destination="Mt9-z4-lcR" id="IbI-dy-kRF"/>
                 <outlet property="houseLabel" destination="Dj2-BN-6aQ" id="BEO-cg-JkT"/>
                 <outlet property="nameLabel" destination="48K-ms-nH8" id="URZ-2W-5gD"/>
+                <outlet property="photoImage" destination="xpm-bo-3Ff" id="8qJ-6L-4Ic"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -40,9 +41,16 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xpm-bo-3Ff">
+                    <rect key="frame" x="16" y="144" width="343" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="JlW-8a-lU9"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="xpm-bo-3Ff" firstAttribute="top" secondItem="Dj2-BN-6aQ" secondAttribute="bottom" constant="20" id="5CP-7r-kDM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Mt9-z4-lcR" secondAttribute="trailing" constant="16" id="AsT-BT-bxV"/>
                 <constraint firstItem="Dj2-BN-6aQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="DhG-E6-kFY"/>
                 <constraint firstItem="Mt9-z4-lcR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="F5W-Gh-Fu1"/>
@@ -50,10 +58,16 @@
                 <constraint firstItem="Dj2-BN-6aQ" firstAttribute="top" secondItem="Mt9-z4-lcR" secondAttribute="bottom" constant="20" id="Qa8-4b-tRn"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dj2-BN-6aQ" secondAttribute="trailing" constant="16" id="bsU-8I-TWC"/>
                 <constraint firstItem="48K-ms-nH8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cpH-Yn-rmy"/>
+                <constraint firstItem="xpm-bo-3Ff" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="e7U-As-zIc"/>
                 <constraint firstItem="Mt9-z4-lcR" firstAttribute="top" secondItem="48K-ms-nH8" secondAttribute="bottom" constant="5" id="hQ3-np-ZaX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xpm-bo-3Ff" secondAttribute="trailing" constant="16" id="iEu-J8-glD"/>
                 <constraint firstItem="48K-ms-nH8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="sbK-ri-MvW"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="pdT-K9-is3">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+        </imageView>
     </objects>
 </document>

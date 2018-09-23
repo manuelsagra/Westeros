@@ -23,8 +23,8 @@ class SeasonTests: XCTestCase {
         dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         
-        season1 = Season(name: "Temporada 1", date: dateFormatter.date(from: "2011-04-17")!)
-        season2 = Season(name: "Temporada 2", date: dateFormatter.date(from: "2012-04-01")!)
+        season1 = Season(name: "Temporada 1", date: dateFormatter.date(from: "2011-04-17")!, excerpt: "Resumen 1")
+        season2 = Season(name: "Temporada 2", date: dateFormatter.date(from: "2012-04-01")!, excerpt: "Resumen 2")
         
         episode12 = Episode(title: "El Camino Real", number: 2, excerpt: "Tras aceptar su nuevo rol como Mano del Rey, Ned parte hacia Desembarco del Rey con sus hijas Sansa y Arya, mientras que el hijo mayor, Robb, se queda al frente de los asuntos de su padre en la ciudad. Jon Nieve, el hijo bastardo de Ned, se dirige al Muro para unirse a la Guardia de la Noche. Tyrion Lannister, el hermano menor de la Reina, decide no ir con el resto de la familia real al sur y acompaña a Jon en su viaje al Muro. Viserys sigue esperando su momento de ganar el Trono de Hierro y Daenerys centra su atención en aprender cómo gustarle a su nuevo esposo, Drogo.", date: dateFormatter.date(from: "2011-04-24")!, season: season1)
         
@@ -53,7 +53,7 @@ class SeasonTests: XCTestCase {
     func testSeasonEquality() {
         XCTAssertEqual(season1, season1)
         
-        let season1b = Season(name: "Temporada 1", date: dateFormatter.date(from: "2011-04-17")!)
+        let season1b = Season(name: "Temporada 1", date: dateFormatter.date(from: "2011-04-17")!, excerpt: "Resumen 1")
         _ = Episode(title: "El Camino Real", number: 2, excerpt: "Tras aceptar su nuevo rol como Mano del Rey, Ned parte hacia Desembarco del Rey con sus hijas Sansa y Arya, mientras que el hijo mayor, Robb, se queda al frente de los asuntos de su padre en la ciudad. Jon Nieve, el hijo bastardo de Ned, se dirige al Muro para unirse a la Guardia de la Noche. Tyrion Lannister, el hermano menor de la Reina, decide no ir con el resto de la familia real al sur y acompaña a Jon en su viaje al Muro. Viserys sigue esperando su momento de ganar el Trono de Hierro y Daenerys centra su atención en aprender cómo gustarle a su nuevo esposo, Drogo.", date: dateFormatter.date(from: "2011-04-24")!, season: season1b)
         XCTAssertEqual(season1, season1b)
         

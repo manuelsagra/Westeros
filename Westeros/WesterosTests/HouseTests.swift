@@ -28,9 +28,9 @@ class HouseTests: XCTestCase {
         starkHouse = House(name: "Stark", sigil: starkSigil, words: "El invierno se acerca", url: URL(string: "https://awoiaf.westeros.org/index.php/House_Stark")!)
         lannisterHouse = House(name: "Lannister", sigil: lannisterSigil, words: "Oye mi rugido", url: URL(string: "https://awoiaf.westeros.org/index.php/House_Lannister")!)
         
-        robb = Person(name: "Robb", alias: "El Joven Lobo", house: starkHouse)
-        arya = Person(name: "Arya", house: starkHouse)
-        tyrion = Person(name: "Tyrion", alias: "El Enano", house: lannisterHouse)
+        robb = Person(name: "Robb", alias: "El Joven Lobo", house: starkHouse, photo: UIImage(named: "robb.jpg")!)
+        arya = Person(name: "Arya", house: starkHouse, photo: UIImage(named: "arya.jpg")!)
+        tyrion = Person(name: "Tyrion", alias: "El Enano", house: lannisterHouse, photo: UIImage(named: "tyrion.jpg")!)
     }
 
     override func tearDown() {

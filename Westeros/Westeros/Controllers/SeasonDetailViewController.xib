@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SeasonDetailViewController" customModule="Westeros" customModuleProvider="target">
             <connections>
                 <outlet property="dateLabel" destination="aBg-AF-Vr7" id="YiQ-72-jCJ"/>
+                <outlet property="excerptText" destination="Ftg-bS-qTC" id="wIN-kr-q77"/>
                 <outlet property="numberLabel" destination="Nip-89-fWb" id="Fv1-0o-gSJ"/>
                 <outlet property="titleLabel" destination="FZb-5l-OiC" id="eyF-Dx-NtA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -40,18 +41,29 @@
                     <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ftg-bS-qTC">
+                    <rect key="frame" x="16" y="159" width="343" height="488"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="FZb-5l-OiC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="MEA-5x-PBJ"/>
+                <constraint firstItem="Ftg-bS-qTC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Tht-su-9cs"/>
                 <constraint firstItem="FZb-5l-OiC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Z1S-XC-Ana"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FZb-5l-OiC" secondAttribute="trailing" constant="16" id="ZgE-Qv-I51"/>
                 <constraint firstItem="aBg-AF-Vr7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="b9P-zw-rrO"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aBg-AF-Vr7" secondAttribute="trailing" constant="16" id="hlU-fx-SgM"/>
                 <constraint firstItem="Nip-89-fWb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="lK8-XJ-n3H"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ftg-bS-qTC" secondAttribute="trailing" constant="16" id="nJl-EH-a7X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Ftg-bS-qTC" secondAttribute="bottom" constant="20" id="slq-nL-OAm"/>
                 <constraint firstItem="Nip-89-fWb" firstAttribute="top" secondItem="FZb-5l-OiC" secondAttribute="bottom" constant="20" id="tKM-cd-E9I"/>
                 <constraint firstItem="aBg-AF-Vr7" firstAttribute="top" secondItem="Nip-89-fWb" secondAttribute="bottom" constant="20" id="tvn-Gk-8bB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nip-89-fWb" secondAttribute="trailing" constant="16" id="vQ3-Mj-ZUL"/>
+                <constraint firstItem="Ftg-bS-qTC" firstAttribute="top" secondItem="aBg-AF-Vr7" secondAttribute="bottom" constant="20" id="wdX-U9-tls"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>

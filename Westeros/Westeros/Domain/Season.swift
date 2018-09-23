@@ -12,13 +12,15 @@ typealias Episodes = Set<Episode>
 final class Season {
     let name: String
     let launchDate: Date
+    let excerpt: String
     
     private let _dateFormatter = DateFormatter()
     private var _episodes: Episodes
     
-    init(name: String, date: Date) {
+    init(name: String, date: Date, excerpt: String) {
         self.name = name
         self.launchDate = date
+        self.excerpt = excerpt
         self._episodes = Episodes()
         self._dateFormatter.dateFormat = "yyyy-MM-dd"
     }
@@ -32,7 +34,7 @@ extension Season {
 
 extension Season {
     var proxyForEquality: String {
-        return "\(name) \(launchDateToString) \(count)"
+        return "\(name) \(launchDateToString) \(excerpt) \(count)"
     }
     var proxyForComparison: Date {
         return launchDate

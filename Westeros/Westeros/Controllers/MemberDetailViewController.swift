@@ -16,6 +16,7 @@ class MemberDetailViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var aliasLabel: UILabel!
     @IBOutlet weak var houseLabel: UILabel!
+    @IBOutlet weak var photoImage: UIImageView!
     
     // MARK: - Initialization
     init(model: Person) {
@@ -41,5 +42,6 @@ class MemberDetailViewController: UIViewController {
         nameLabel.text = self.model.name
         houseLabel.text = "Casa \(self.model.house.name)"
         aliasLabel.text = self.model.alias
+        photoImage.image = self.model.photo
     }
 }

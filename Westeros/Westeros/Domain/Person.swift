@@ -6,12 +6,13 @@
 //  Copyright © 2018 Manuel Sagra de Diego. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 final class Person  {
     // MARK: - Properties
     let name: String
     let house: House
+    let photo: UIImage
     private let _alias: String?
     
     var alias: String {
@@ -21,10 +22,11 @@ final class Person  {
     }
     
     // MARK: - Initialization
-    init(name: String, alias: String? = nil, house: House) {
+    init(name: String, alias: String? = nil, house: House, photo: UIImage) {
         self.name = name
         self._alias = alias
         self.house = house
+        self.photo = photo
         
         house.add(person: self)
     }

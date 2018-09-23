@@ -36,6 +36,13 @@
 		32946A7A2157C1B900195CF3 /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A782157C1B900195CF3 /* lannister.jpg */; };
 		32946A7B2157C1B900195CF3 /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A792157C1B900195CF3 /* targaryen.jpg */; };
 		32946A7D2157C30400195CF3 /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A7C2157C30400195CF3 /* got.png */; };
+		32946A832157DC3E00195CF3 /* robb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A812157DC3D00195CF3 /* robb.jpg */; };
+		32946A842157DC3E00195CF3 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A822157DC3E00195CF3 /* arya.jpg */; };
+		32946A8A2157DE0200195CF3 /* ned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A852157DE0100195CF3 /* ned.jpg */; };
+		32946A8B2157DE0200195CF3 /* jaime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A862157DE0100195CF3 /* jaime.jpg */; };
+		32946A8C2157DE0200195CF3 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A872157DE0200195CF3 /* cersei.jpg */; };
+		32946A8D2157DE0200195CF3 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A882157DE0200195CF3 /* tyrion.jpg */; };
+		32946A8E2157DE0200195CF3 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A892157DE0200195CF3 /* daenerys.jpg */; };
 		329E5F4C2149A39E00BFED5B /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */; };
 		329E5F502149B9F200BFED5B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */; };
 		329E5F522149BBF700BFED5B /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F512149BBF700BFED5B /* RepositoryTests.swift */; };
@@ -90,6 +97,13 @@
 		32946A782157C1B900195CF3 /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
 		32946A792157C1B900195CF3 /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
 		32946A7C2157C30400195CF3 /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
+		32946A812157DC3D00195CF3 /* robb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robb.jpg; sourceTree = "<group>"; };
+		32946A822157DC3E00195CF3 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arya.jpg; sourceTree = "<group>"; };
+		32946A852157DE0100195CF3 /* ned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ned.jpg; sourceTree = "<group>"; };
+		32946A862157DE0100195CF3 /* jaime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jaime.jpg; sourceTree = "<group>"; };
+		32946A872157DE0200195CF3 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
+		32946A882157DE0200195CF3 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
+		32946A892157DE0200195CF3 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
 		329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
 		329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		329E5F512149BBF700BFED5B /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
@@ -129,6 +143,13 @@
 		329E5F442149A19600BFED5B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				32946A872157DE0200195CF3 /* cersei.jpg */,
+				32946A892157DE0200195CF3 /* daenerys.jpg */,
+				32946A862157DE0100195CF3 /* jaime.jpg */,
+				32946A852157DE0100195CF3 /* ned.jpg */,
+				32946A882157DE0200195CF3 /* tyrion.jpg */,
+				32946A822157DC3E00195CF3 /* arya.jpg */,
+				32946A812157DC3D00195CF3 /* robb.jpg */,
 				32946A7C2157C30400195CF3 /* got.png */,
 				32946A782157C1B900195CF3 /* lannister.jpg */,
 				32946A792157C1B900195CF3 /* targaryen.jpg */,
@@ -327,18 +348,25 @@
 				32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */,
 				32946A752157B84300195CF3 /* season@3x.png in Resources */,
 				32946A732157B84300195CF3 /* season.png in Resources */,
+				32946A832157DC3E00195CF3 /* robb.jpg in Resources */,
 				32946A552156944900195CF3 /* SeasonDetailViewController.xib in Resources */,
+				32946A8B2157DE0200195CF3 /* jaime.jpg in Resources */,
 				32946A2B21503D1800195CF3 /* HouseDetailViewController.xib in Resources */,
+				32946A842157DC3E00195CF3 /* arya.jpg in Resources */,
 				32BE0BDC2141B37C00A9B501 /* LaunchScreen.storyboard in Resources */,
+				32946A8C2157DE0200195CF3 /* cersei.jpg in Resources */,
+				32946A8A2157DE0200195CF3 /* ned.jpg in Resources */,
 				32BE0BD92141B37C00A9B501 /* Assets.xcassets in Resources */,
 				32946A742157B84300195CF3 /* season@2x.png in Resources */,
 				32946A7B2157C1B900195CF3 /* targaryen.jpg in Resources */,
+				32946A8D2157DE0200195CF3 /* tyrion.jpg in Resources */,
 				32946A6E2157B76D00195CF3 /* house@2x.png in Resources */,
 				32946A6F2157B76D00195CF3 /* house@3x.png in Resources */,
 				32946A772157C0FD00195CF3 /* stark.jpg in Resources */,
 				32946A7A2157C1B900195CF3 /* lannister.jpg in Resources */,
 				32946A3121518A0C00195CF3 /* MemberListViewController.xib in Resources */,
 				32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */,
+				32946A8E2157DE0200195CF3 /* daenerys.jpg in Resources */,
 				32946A7D2157C30400195CF3 /* got.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

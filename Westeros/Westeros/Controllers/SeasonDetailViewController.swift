@@ -16,6 +16,7 @@ class SeasonDetailViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var excerptText: UITextView!
     
     // MARK: - Initialization
     init(model: Season) {
@@ -43,13 +44,20 @@ class SeasonDetailViewController: UIViewController {
         
         syncModelWithView()
     }
+    
+    // Fix UITextView initial scroll
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        excerptText.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
+    }
 
     // MARK: - Sync
     func syncModelWithView() {
         self.title = self.model.name
         titleLabel.text = self.model.name
         numberLabel.text = "\(self.model.count) episodios"
-        dateLabel.text = model.launchDateToString
+        dateLabel.text = self.model.launchDateToString
+        excerptText.text = self.model.excerpt
     }
     
     func addButton() {

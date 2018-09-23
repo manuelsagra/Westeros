@@ -11,8 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EpisodeDetailViewController" customModule="Westeros" customModuleProvider="target">
             <connections>
-                <outlet property="dateLabel" destination="Ncz-I9-M6J" id="uPy-Ce-r4g"/>
-                <outlet property="excerptLabel" destination="0QG-NR-tGW" id="4fe-iQ-900"/>
+                <outlet property="dateLabel" destination="Ncz-I9-M6J" id="yv0-m8-nWM"/>
+                <outlet property="excerptText" destination="pZf-bf-pwS" id="df4-gy-ZPQ"/>
                 <outlet property="numberLabel" destination="cn5-xp-484" id="WL5-g5-8g9"/>
                 <outlet property="titleLabel" destination="RFm-1J-g1e" id="0eF-yL-6NP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -41,26 +41,28 @@
                     <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-NR-tGW">
-                    <rect key="frame" x="16" y="159" width="343" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pZf-bf-pwS">
+                    <rect key="frame" x="16" y="159" width="343" height="488"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="0QG-NR-tGW" firstAttribute="top" secondItem="Ncz-I9-M6J" secondAttribute="bottom" constant="20" id="2hB-Ol-YdW"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ncz-I9-M6J" secondAttribute="trailing" constant="16" id="8NA-uj-U4u"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cn5-xp-484" secondAttribute="trailing" constant="16" id="AaS-gq-KzO"/>
+                <constraint firstItem="pZf-bf-pwS" firstAttribute="top" secondItem="Ncz-I9-M6J" secondAttribute="bottom" constant="20" id="CFq-4m-TlL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pZf-bf-pwS" secondAttribute="bottom" constant="20" id="LOE-u6-mj2"/>
                 <constraint firstItem="RFm-1J-g1e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="LVC-v2-hKn"/>
                 <constraint firstItem="cn5-xp-484" firstAttribute="top" secondItem="RFm-1J-g1e" secondAttribute="bottom" constant="20" id="Ofj-Lu-GJW"/>
                 <constraint firstItem="Ncz-I9-M6J" firstAttribute="top" secondItem="cn5-xp-484" secondAttribute="bottom" constant="20" id="SdC-Nr-ZeQ"/>
-                <constraint firstItem="0QG-NR-tGW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Y4o-fJ-bhu"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RFm-1J-g1e" secondAttribute="trailing" constant="16" id="YMh-i3-F8X"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0QG-NR-tGW" secondAttribute="trailing" constant="16" id="Zb0-rl-yQy"/>
                 <constraint firstItem="cn5-xp-484" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="fGi-hu-4wD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pZf-bf-pwS" secondAttribute="trailing" constant="16" id="hsk-NB-iF5"/>
                 <constraint firstItem="Ncz-I9-M6J" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="kZZ-N1-6Bt"/>
+                <constraint firstItem="pZf-bf-pwS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mLw-ln-dP4"/>
                 <constraint firstItem="RFm-1J-g1e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="xhb-Cc-NbE"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

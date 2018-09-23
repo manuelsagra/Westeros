@@ -67,6 +67,7 @@ extension MemberListViewController: UITableViewDataSource {
         
         cell?.textLabel?.text = personObj.name
         cell?.detailTextLabel?.text = personObj.alias
+        cell?.imageView?.image = personObj.photo
         
         return cell!
     }
@@ -76,6 +77,10 @@ extension MemberListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let personObj = member(at: indexPath.row)
         navigationController?.pushViewController(MemberDetailViewController(model: personObj), animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60
     }
 }
 
