@@ -56,15 +56,15 @@ class EpisodeListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let episode = model[indexPath.row]
+        let episodeObj = episode(at: indexPath.row)
         
         var cell = tableView.dequeueReusableCell(withIdentifier: Constants.episodeCell)
         if (cell == nil) {
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: Constants.episodeCell)
         }
         
-        cell?.textLabel?.text = episode.title
-        cell?.detailTextLabel?.text = episode.airDateToString
+        cell?.textLabel?.text = episodeObj.title
+        cell?.detailTextLabel?.text = episodeObj.airDateToString
         
         return cell!
     }

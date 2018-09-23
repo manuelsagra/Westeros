@@ -87,3 +87,9 @@ extension HouseListViewController {
         return model[row]
     }
 }
+
+extension HouseListViewController: HouseListViewControllerDelegate {
+    func houseListViewController(_ vc: HouseListViewController, didSelectHouse house: House) {
+        navigationController?.pushViewController(HouseDetailViewController(model: house), animated: true)
+    }
+}

@@ -24,7 +24,6 @@ class HouseDetailViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
-    // Chapuza de Apple, necesaria para Storyboards
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }   
@@ -42,7 +41,6 @@ class HouseDetailViewController: UIViewController {
         
         addButtons()
         
-        // Sincronizamos modelo y vista
         syncModelWithView()
     }
     

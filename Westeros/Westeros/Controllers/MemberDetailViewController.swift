@@ -32,7 +32,6 @@ class MemberDetailViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Sincronizamos modelo y vista
         syncModelWithView()
     }
     

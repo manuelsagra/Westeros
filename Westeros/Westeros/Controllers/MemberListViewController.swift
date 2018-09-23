@@ -58,15 +58,15 @@ extension MemberListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        
-        let person = model[indexPath.row]
+        let personObj = member(at: indexPath.row)
         
         var cell = tableView.dequeueReusableCell(withIdentifier: Constants.personCell)
         if (cell == nil) {
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: Constants.personCell)
         }
         
-        cell?.textLabel?.text = person.name
-        cell?.detailTextLabel?.text = person.alias
+        cell?.textLabel?.text = personObj.name
+        cell?.detailTextLabel?.text = personObj.alias
         
         return cell!
     }

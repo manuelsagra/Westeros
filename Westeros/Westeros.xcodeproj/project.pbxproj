@@ -24,7 +24,6 @@
 		32946A5721569A7A00195CF3 /* EpisodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */; };
 		32946A5A21569F4600195CF3 /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */; };
 		32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */; };
-		32946A652156E10A00195CF3 /* WesterosSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */; };
 		32946A682156E9E500195CF3 /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A662156E9E500195CF3 /* MemberDetailViewController.swift */; };
 		32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A672156E9E500195CF3 /* MemberDetailViewController.xib */; };
 		329E5F412149A18A00BFED5B /* stark.png in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F3E2149A18900BFED5B /* stark.png */; };
@@ -72,7 +71,6 @@
 		32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewController.swift; sourceTree = "<group>"; };
 		32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
 		32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
-		32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesterosSplitViewController.swift; sourceTree = "<group>"; };
 		32946A662156E9E500195CF3 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
 		32946A672156E9E500195CF3 /* MemberDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberDetailViewController.xib; sourceTree = "<group>"; };
 		329E5F3E2149A18900BFED5B /* stark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stark.png; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				32946A5621569A7A00195CF3 /* EpisodeListViewController.swift */,
 				32946A5821569F4600195CF3 /* EpisodeDetailViewController.swift */,
 				32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */,
-				32946A642156E10A00195CF3 /* WesterosSplitViewController.swift */,
 				32946A662156E9E500195CF3 /* MemberDetailViewController.swift */,
 				32946A672156E9E500195CF3 /* MemberDetailViewController.xib */,
 			);
@@ -348,7 +345,6 @@
 				32946A5A21569F4600195CF3 /* EpisodeDetailViewController.swift in Sources */,
 				32946A542156944900195CF3 /* SeasonDetailViewController.swift in Sources */,
 				32BE0BD22141B37500A9B501 /* AppDelegate.swift in Sources */,
-				32946A652156E10A00195CF3 /* WesterosSplitViewController.swift in Sources */,
 				32BE0BFB2141C91500A9B501 /* Person.swift in Sources */,
 				32946A682156E9E500195CF3 /* MemberDetailViewController.swift in Sources */,
 				32946A2D215059D000195CF3 /* HouseListViewController.swift in Sources */,

@@ -41,7 +41,6 @@ class SeasonDetailViewController: UIViewController {
         
         addButton()
         
-        // Sincronizamos modelo y vista
         syncModelWithView()
     }
 

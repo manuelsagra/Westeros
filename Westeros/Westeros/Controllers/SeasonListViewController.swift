@@ -87,3 +87,9 @@ extension SeasonListViewController {
         return model[row]
     }
 }
+
+extension SeasonListViewController: SeasonListViewControllerDelegate {
+    func seasonListViewController(_ vc: SeasonListViewController, didSelectSeason season: Season) {
+        navigationController?.pushViewController(SeasonDetailViewController(model: season), animated: true)
+    }
+}

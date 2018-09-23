@@ -20,18 +20,16 @@ class HouseWebViewController: UIViewController {
         webView = WKWebView()
         
         super.init(nibName: nil, bundle: nil)
-        // O también
-        //super.init(nibName: nil, bundle: Bundle(for: type(of: self)))
         
         webView.navigationDelegate = self
-        // Spinner hasta que cargue
+        
+        // Spinner until page load
         let spinner = UIActivityIndicatorView(style: .whiteLarge)
         spinner.startAnimating()
         spinner.center = view.center
         view = spinner
     }
     
-    // Chapuza de Apple, necesaria para Storyboards
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -72,7 +70,7 @@ extension HouseWebViewController: WKNavigationDelegate {
         view = webView
     }
     
-    // Evitar navegación
+    // Avoid page navigation
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         let type = navigationAction.navigationType
         switch(type) {
