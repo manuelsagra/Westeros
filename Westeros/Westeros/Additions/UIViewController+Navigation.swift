@@ -10,6 +10,13 @@ import UIKit
 
 extension UIViewController {
     func wrappedInNavigation() -> UINavigationController {
-        return UINavigationController(rootViewController: self)
+        let navController = UINavigationController(rootViewController: self)
+        
+        // Custom color & background
+        navController.navigationBar.backgroundColor = UIColor.black
+        navController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.darkGray]
+        navController.navigationBar.tintColor = UIColor.white
+        
+        return navController
     }
 }

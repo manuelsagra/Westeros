@@ -26,9 +26,16 @@
 		32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */; };
 		32946A682156E9E500195CF3 /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A662156E9E500195CF3 /* MemberDetailViewController.swift */; };
 		32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32946A672156E9E500195CF3 /* MemberDetailViewController.xib */; };
-		329E5F412149A18A00BFED5B /* stark.png in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F3E2149A18900BFED5B /* stark.png */; };
-		329E5F422149A18A00BFED5B /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F3F2149A18A00BFED5B /* lannister.jpg */; };
-		329E5F432149A18A00BFED5B /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329E5F402149A18A00BFED5B /* targaryen.jpg */; };
+		32946A6D2157B76D00195CF3 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A6A2157B76C00195CF3 /* house.png */; };
+		32946A6E2157B76D00195CF3 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A6B2157B76D00195CF3 /* house@2x.png */; };
+		32946A6F2157B76D00195CF3 /* house@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A6C2157B76D00195CF3 /* house@3x.png */; };
+		32946A732157B84300195CF3 /* season.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A702157B84200195CF3 /* season.png */; };
+		32946A742157B84300195CF3 /* season@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A712157B84200195CF3 /* season@2x.png */; };
+		32946A752157B84300195CF3 /* season@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A722157B84200195CF3 /* season@3x.png */; };
+		32946A772157C0FD00195CF3 /* stark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A762157C0FD00195CF3 /* stark.jpg */; };
+		32946A7A2157C1B900195CF3 /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A782157C1B900195CF3 /* lannister.jpg */; };
+		32946A7B2157C1B900195CF3 /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A792157C1B900195CF3 /* targaryen.jpg */; };
+		32946A7D2157C30400195CF3 /* got.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A7C2157C30400195CF3 /* got.png */; };
 		329E5F4C2149A39E00BFED5B /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */; };
 		329E5F502149B9F200BFED5B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */; };
 		329E5F522149BBF700BFED5B /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F512149BBF700BFED5B /* RepositoryTests.swift */; };
@@ -73,9 +80,16 @@
 		32946A5921569F4600195CF3 /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
 		32946A662156E9E500195CF3 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
 		32946A672156E9E500195CF3 /* MemberDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberDetailViewController.xib; sourceTree = "<group>"; };
-		329E5F3E2149A18900BFED5B /* stark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stark.png; sourceTree = "<group>"; };
-		329E5F3F2149A18A00BFED5B /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
-		329E5F402149A18A00BFED5B /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
+		32946A6A2157B76C00195CF3 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		32946A6B2157B76D00195CF3 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		32946A6C2157B76D00195CF3 /* house@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@3x.png"; sourceTree = "<group>"; };
+		32946A702157B84200195CF3 /* season.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = season.png; sourceTree = "<group>"; };
+		32946A712157B84200195CF3 /* season@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season@2x.png"; sourceTree = "<group>"; };
+		32946A722157B84200195CF3 /* season@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season@3x.png"; sourceTree = "<group>"; };
+		32946A762157C0FD00195CF3 /* stark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stark.jpg; sourceTree = "<group>"; };
+		32946A782157C1B900195CF3 /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
+		32946A792157C1B900195CF3 /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
+		32946A7C2157C30400195CF3 /* got.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = got.png; sourceTree = "<group>"; };
 		329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
 		329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		329E5F512149BBF700BFED5B /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
@@ -115,9 +129,16 @@
 		329E5F442149A19600BFED5B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				329E5F3F2149A18A00BFED5B /* lannister.jpg */,
-				329E5F3E2149A18900BFED5B /* stark.png */,
-				329E5F402149A18A00BFED5B /* targaryen.jpg */,
+				32946A7C2157C30400195CF3 /* got.png */,
+				32946A782157C1B900195CF3 /* lannister.jpg */,
+				32946A792157C1B900195CF3 /* targaryen.jpg */,
+				32946A762157C0FD00195CF3 /* stark.jpg */,
+				32946A702157B84200195CF3 /* season.png */,
+				32946A712157B84200195CF3 /* season@2x.png */,
+				32946A722157B84200195CF3 /* season@3x.png */,
+				32946A6A2157B76C00195CF3 /* house.png */,
+				32946A6B2157B76D00195CF3 /* house@2x.png */,
+				32946A6C2157B76D00195CF3 /* house@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -302,16 +323,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329E5F432149A18A00BFED5B /* targaryen.jpg in Resources */,
+				32946A6D2157B76D00195CF3 /* house.png in Resources */,
 				32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */,
-				329E5F422149A18A00BFED5B /* lannister.jpg in Resources */,
+				32946A752157B84300195CF3 /* season@3x.png in Resources */,
+				32946A732157B84300195CF3 /* season.png in Resources */,
 				32946A552156944900195CF3 /* SeasonDetailViewController.xib in Resources */,
 				32946A2B21503D1800195CF3 /* HouseDetailViewController.xib in Resources */,
 				32BE0BDC2141B37C00A9B501 /* LaunchScreen.storyboard in Resources */,
-				329E5F412149A18A00BFED5B /* stark.png in Resources */,
 				32BE0BD92141B37C00A9B501 /* Assets.xcassets in Resources */,
+				32946A742157B84300195CF3 /* season@2x.png in Resources */,
+				32946A7B2157C1B900195CF3 /* targaryen.jpg in Resources */,
+				32946A6E2157B76D00195CF3 /* house@2x.png in Resources */,
+				32946A6F2157B76D00195CF3 /* house@3x.png in Resources */,
+				32946A772157C0FD00195CF3 /* stark.jpg in Resources */,
+				32946A7A2157C1B900195CF3 /* lannister.jpg in Resources */,
 				32946A3121518A0C00195CF3 /* MemberListViewController.xib in Resources */,
 				32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */,
+				32946A7D2157C30400195CF3 /* got.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

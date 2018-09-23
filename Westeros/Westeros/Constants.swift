@@ -9,6 +9,9 @@
 import Foundation
 
 enum Constants {
+    // App
+    static let appTitle = "Westeros"
+    
     // House
     static let houseDidChangeNotificationName = "HouseDidChangeNotificationName"
     static let houseKey = "HouseKey"

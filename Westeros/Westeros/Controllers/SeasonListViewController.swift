@@ -49,6 +49,7 @@ class SeasonListViewController: UITableViewController {
         
         cell?.textLabel?.text = house.name
         cell?.detailTextLabel?.text = "\(house.count) episodios"
+        cell?.imageView?.image = UIImage(named: "got.png")!
         
         return cell!
     }

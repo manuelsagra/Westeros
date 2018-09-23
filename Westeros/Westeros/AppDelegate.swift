@@ -44,12 +44,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
         }
         
         // TabBar
+        let houseListWrapped = houseList.wrappedInNavigation()
+        let seasonListWrapped = seasonList.wrappedInNavigation()
+        
+        houseListWrapped.tabBarItem.image = UIImage(named: "house")!
+        seasonListWrapped.tabBarItem.image = UIImage(named: "season")!
+        
         let tabBar = UITabBarController()
         tabBar.viewControllers = [
-            houseList.wrappedInNavigation(),
-            seasonList.wrappedInNavigation()
+            houseListWrapped,
+            seasonListWrapped
         ]
         tabBar.delegate = self
+        tabBar.tabBar.backgroundColor = UIColor.darkGray
         
         // Split View
         splitViewController = UISplitViewController()

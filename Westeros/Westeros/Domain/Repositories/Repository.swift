@@ -39,9 +39,9 @@ extension LocalFactory: HouseFactory {
     
     var houses: [House] {
         // Sigils
-        let starkSigil = Sigil(image: UIImage(named: "stark")!, description: "Lobo Huargo")
+        let starkSigil = Sigil(image: UIImage(named: "stark.jpg")!, description: "Lobo Huargo")
         let lannisterSigil = Sigil(image: UIImage(named: "lannister.jpg")!, description: "León Rampante")
-        let targaryenSigil = Sigil(image: UIImage(named: "targaryen.jpg")!, description: "Un dragón tricéfalo")
+        let targaryenSigil = Sigil(image: UIImage(named: "targaryen.jpg")!, description: "Dragón Tricéfalo")
         
         // Houses
         let starkHouse = House(name: "Stark", sigil: starkSigil, words: "Se acerca el invierno", url: URL(string: "https://awoiaf.westeros.org/index.php/House_Stark")!)
