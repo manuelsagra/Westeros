@@ -43,6 +43,30 @@
 		32946A8C2157DE0200195CF3 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A872157DE0200195CF3 /* cersei.jpg */; };
 		32946A8D2157DE0200195CF3 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A882157DE0200195CF3 /* tyrion.jpg */; };
 		32946A8E2157DE0200195CF3 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32946A892157DE0200195CF3 /* daenerys.jpg */; };
+		32946AAE21581FDC00195CF3 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9621581FDC00195CF3 /* Contents.json */; };
+		32946AAF21581FDC00195CF3 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9721581FDC00195CF3 /* Icon-App-20x20@1x.png */; };
+		32946AB021581FDC00195CF3 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9821581FDC00195CF3 /* Icon-App-20x20@2x.png */; };
+		32946AB121581FDC00195CF3 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9921581FDC00195CF3 /* Icon-App-20x20@3x.png */; };
+		32946AB221581FDC00195CF3 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9A21581FDC00195CF3 /* Icon-App-29x29@1x.png */; };
+		32946AB321581FDC00195CF3 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9B21581FDC00195CF3 /* Icon-App-29x29@2x.png */; };
+		32946AB421581FDC00195CF3 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9C21581FDC00195CF3 /* Icon-App-29x29@3x.png */; };
+		32946AB521581FDC00195CF3 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9D21581FDC00195CF3 /* Icon-App-40x40@1x.png */; };
+		32946AB621581FDC00195CF3 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9E21581FDC00195CF3 /* Icon-App-40x40@2x.png */; };
+		32946AB721581FDC00195CF3 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946A9F21581FDC00195CF3 /* Icon-App-40x40@3x.png */; };
+		32946AB821581FDC00195CF3 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA021581FDC00195CF3 /* Icon-App-57x57@1x.png */; };
+		32946AB921581FDC00195CF3 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA121581FDC00195CF3 /* Icon-App-57x57@2x.png */; };
+		32946ABA21581FDC00195CF3 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA221581FDC00195CF3 /* Icon-App-60x60@1x.png */; };
+		32946ABB21581FDC00195CF3 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA321581FDC00195CF3 /* Icon-App-60x60@2x.png */; };
+		32946ABC21581FDC00195CF3 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA421581FDC00195CF3 /* Icon-App-60x60@3x.png */; };
+		32946ABD21581FDC00195CF3 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA521581FDC00195CF3 /* Icon-App-72x72@1x.png */; };
+		32946ABE21581FDC00195CF3 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA621581FDC00195CF3 /* Icon-App-72x72@2x.png */; };
+		32946ABF21581FDC00195CF3 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA721581FDC00195CF3 /* Icon-App-76x76@1x.png */; };
+		32946AC021581FDC00195CF3 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA821581FDC00195CF3 /* Icon-App-76x76@2x.png */; };
+		32946AC121581FDC00195CF3 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AA921581FDC00195CF3 /* Icon-App-76x76@3x.png */; };
+		32946AC221581FDC00195CF3 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AAA21581FDC00195CF3 /* Icon-App-83.5x83.5@2x.png */; };
+		32946AC321581FDC00195CF3 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AAB21581FDC00195CF3 /* Icon-Small-50x50@1x.png */; };
+		32946AC421581FDC00195CF3 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AAC21581FDC00195CF3 /* Icon-Small-50x50@2x.png */; };
+		32946AC521581FDC00195CF3 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32946AAD21581FDC00195CF3 /* ItunesArtwork@2x.png */; };
 		329E5F4C2149A39E00BFED5B /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */; };
 		329E5F502149B9F200BFED5B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */; };
 		329E5F522149BBF700BFED5B /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E5F512149BBF700BFED5B /* RepositoryTests.swift */; };
@@ -104,6 +128,30 @@
 		32946A872157DE0200195CF3 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
 		32946A882157DE0200195CF3 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
 		32946A892157DE0200195CF3 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
+		32946A9621581FDC00195CF3 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		32946A9721581FDC00195CF3 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		32946A9821581FDC00195CF3 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		32946A9921581FDC00195CF3 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		32946A9A21581FDC00195CF3 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		32946A9B21581FDC00195CF3 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		32946A9C21581FDC00195CF3 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		32946A9D21581FDC00195CF3 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		32946A9E21581FDC00195CF3 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		32946A9F21581FDC00195CF3 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		32946AA021581FDC00195CF3 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		32946AA121581FDC00195CF3 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		32946AA221581FDC00195CF3 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		32946AA321581FDC00195CF3 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		32946AA421581FDC00195CF3 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		32946AA521581FDC00195CF3 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		32946AA621581FDC00195CF3 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		32946AA721581FDC00195CF3 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		32946AA821581FDC00195CF3 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		32946AA921581FDC00195CF3 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		32946AAA21581FDC00195CF3 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		32946AAB21581FDC00195CF3 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		32946AAC21581FDC00195CF3 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		32946AAD21581FDC00195CF3 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
 		329E5F4A2149A39E00BFED5B /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
 		329E5F4F2149B9F200BFED5B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		329E5F512149BBF700BFED5B /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
@@ -140,7 +188,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		329E5F442149A19600BFED5B /* Resources */ = {
+		32946A9121581F1A00195CF3 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
 				32946A872157DE0200195CF3 /* cersei.jpg */,
@@ -150,16 +198,71 @@
 				32946A882157DE0200195CF3 /* tyrion.jpg */,
 				32946A822157DC3E00195CF3 /* arya.jpg */,
 				32946A812157DC3D00195CF3 /* robb.jpg */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		32946A9221581F2500195CF3 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
 				32946A7C2157C30400195CF3 /* got.png */,
-				32946A782157C1B900195CF3 /* lannister.jpg */,
-				32946A792157C1B900195CF3 /* targaryen.jpg */,
-				32946A762157C0FD00195CF3 /* stark.jpg */,
 				32946A702157B84200195CF3 /* season.png */,
 				32946A712157B84200195CF3 /* season@2x.png */,
 				32946A722157B84200195CF3 /* season@3x.png */,
 				32946A6A2157B76C00195CF3 /* house.png */,
 				32946A6B2157B76D00195CF3 /* house@2x.png */,
 				32946A6C2157B76D00195CF3 /* house@3x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		32946A9421581F4800195CF3 /* Sigils */ = {
+			isa = PBXGroup;
+			children = (
+				32946A782157C1B900195CF3 /* lannister.jpg */,
+				32946A792157C1B900195CF3 /* targaryen.jpg */,
+				32946A762157C0FD00195CF3 /* stark.jpg */,
+			);
+			path = Sigils;
+			sourceTree = "<group>";
+		};
+		32946A9521581FDC00195CF3 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				32946A9621581FDC00195CF3 /* Contents.json */,
+				32946A9721581FDC00195CF3 /* Icon-App-20x20@1x.png */,
+				32946A9821581FDC00195CF3 /* Icon-App-20x20@2x.png */,
+				32946A9921581FDC00195CF3 /* Icon-App-20x20@3x.png */,
+				32946A9A21581FDC00195CF3 /* Icon-App-29x29@1x.png */,
+				32946A9B21581FDC00195CF3 /* Icon-App-29x29@2x.png */,
+				32946A9C21581FDC00195CF3 /* Icon-App-29x29@3x.png */,
+				32946A9D21581FDC00195CF3 /* Icon-App-40x40@1x.png */,
+				32946A9E21581FDC00195CF3 /* Icon-App-40x40@2x.png */,
+				32946A9F21581FDC00195CF3 /* Icon-App-40x40@3x.png */,
+				32946AA021581FDC00195CF3 /* Icon-App-57x57@1x.png */,
+				32946AA121581FDC00195CF3 /* Icon-App-57x57@2x.png */,
+				32946AA221581FDC00195CF3 /* Icon-App-60x60@1x.png */,
+				32946AA321581FDC00195CF3 /* Icon-App-60x60@2x.png */,
+				32946AA421581FDC00195CF3 /* Icon-App-60x60@3x.png */,
+				32946AA621581FDC00195CF3 /* Icon-App-72x72@2x.png */,
+				32946AA521581FDC00195CF3 /* Icon-App-72x72@1x.png */,
+				32946AA721581FDC00195CF3 /* Icon-App-76x76@1x.png */,
+				32946AA821581FDC00195CF3 /* Icon-App-76x76@2x.png */,
+				32946AA921581FDC00195CF3 /* Icon-App-76x76@3x.png */,
+				32946AAA21581FDC00195CF3 /* Icon-App-83.5x83.5@2x.png */,
+				32946AAB21581FDC00195CF3 /* Icon-Small-50x50@1x.png */,
+				32946AAC21581FDC00195CF3 /* Icon-Small-50x50@2x.png */,
+				32946AAD21581FDC00195CF3 /* ItunesArtwork@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		329E5F442149A19600BFED5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32946A9421581F4800195CF3 /* Sigils */,
+				32946A9221581F2500195CF3 /* Icons */,
+				32946A9121581F1A00195CF3 /* Characters */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -223,6 +326,7 @@
 		32BE0BD02141B37500A9B501 /* Westeros */ = {
 			isa = PBXGroup;
 			children = (
+				32946A9521581FDC00195CF3 /* AppIcon.appiconset */,
 				329E5F4E2149B9A400BFED5B /* Additions */,
 				329E5F452149A2FE00BFED5B /* Controllers */,
 				329E5F442149A19600BFED5B /* Resources */,
@@ -346,25 +450,49 @@
 			files = (
 				32946A6D2157B76D00195CF3 /* house.png in Resources */,
 				32946A692156E9E500195CF3 /* MemberDetailViewController.xib in Resources */,
+				32946AB921581FDC00195CF3 /* Icon-App-57x57@2x.png in Resources */,
 				32946A752157B84300195CF3 /* season@3x.png in Resources */,
 				32946A732157B84300195CF3 /* season.png in Resources */,
 				32946A832157DC3E00195CF3 /* robb.jpg in Resources */,
+				32946ABC21581FDC00195CF3 /* Icon-App-60x60@3x.png in Resources */,
+				32946ABD21581FDC00195CF3 /* Icon-App-72x72@1x.png in Resources */,
+				32946AAE21581FDC00195CF3 /* Contents.json in Resources */,
 				32946A552156944900195CF3 /* SeasonDetailViewController.xib in Resources */,
+				32946ABB21581FDC00195CF3 /* Icon-App-60x60@2x.png in Resources */,
 				32946A8B2157DE0200195CF3 /* jaime.jpg in Resources */,
 				32946A2B21503D1800195CF3 /* HouseDetailViewController.xib in Resources */,
 				32946A842157DC3E00195CF3 /* arya.jpg in Resources */,
 				32BE0BDC2141B37C00A9B501 /* LaunchScreen.storyboard in Resources */,
 				32946A8C2157DE0200195CF3 /* cersei.jpg in Resources */,
 				32946A8A2157DE0200195CF3 /* ned.jpg in Resources */,
+				32946AB721581FDC00195CF3 /* Icon-App-40x40@3x.png in Resources */,
+				32946AAF21581FDC00195CF3 /* Icon-App-20x20@1x.png in Resources */,
+				32946AC221581FDC00195CF3 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				32BE0BD92141B37C00A9B501 /* Assets.xcassets in Resources */,
+				32946AB621581FDC00195CF3 /* Icon-App-40x40@2x.png in Resources */,
+				32946AB221581FDC00195CF3 /* Icon-App-29x29@1x.png in Resources */,
+				32946ABA21581FDC00195CF3 /* Icon-App-60x60@1x.png in Resources */,
+				32946ABF21581FDC00195CF3 /* Icon-App-76x76@1x.png in Resources */,
 				32946A742157B84300195CF3 /* season@2x.png in Resources */,
 				32946A7B2157C1B900195CF3 /* targaryen.jpg in Resources */,
+				32946AC421581FDC00195CF3 /* Icon-Small-50x50@2x.png in Resources */,
 				32946A8D2157DE0200195CF3 /* tyrion.jpg in Resources */,
 				32946A6E2157B76D00195CF3 /* house@2x.png in Resources */,
+				32946AC321581FDC00195CF3 /* Icon-Small-50x50@1x.png in Resources */,
+				32946ABE21581FDC00195CF3 /* Icon-App-72x72@2x.png in Resources */,
+				32946AB321581FDC00195CF3 /* Icon-App-29x29@2x.png in Resources */,
+				32946AB521581FDC00195CF3 /* Icon-App-40x40@1x.png in Resources */,
 				32946A6F2157B76D00195CF3 /* house@3x.png in Resources */,
+				32946AC521581FDC00195CF3 /* ItunesArtwork@2x.png in Resources */,
 				32946A772157C0FD00195CF3 /* stark.jpg in Resources */,
 				32946A7A2157C1B900195CF3 /* lannister.jpg in Resources */,
+				32946AB821581FDC00195CF3 /* Icon-App-57x57@1x.png in Resources */,
+				32946AB421581FDC00195CF3 /* Icon-App-29x29@3x.png in Resources */,
 				32946A3121518A0C00195CF3 /* MemberListViewController.xib in Resources */,
+				32946AC121581FDC00195CF3 /* Icon-App-76x76@3x.png in Resources */,
+				32946AC021581FDC00195CF3 /* Icon-App-76x76@2x.png in Resources */,
+				32946AB121581FDC00195CF3 /* Icon-App-20x20@3x.png in Resources */,
+				32946AB021581FDC00195CF3 /* Icon-App-20x20@2x.png in Resources */,
 				32946A5B21569F4600195CF3 /* EpisodeDetailViewController.xib in Resources */,
 				32946A8E2157DE0200195CF3 /* daenerys.jpg in Resources */,
 				32946A7D2157C30400195CF3 /* got.png in Resources */,
