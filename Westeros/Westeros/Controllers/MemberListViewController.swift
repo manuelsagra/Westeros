@@ -20,6 +20,8 @@ class MemberListViewController: UIViewController {
         self.model = model
         
         super.init(nibName: nil, bundle: nil)
+        
+        self.title = "Miembros"
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -17,6 +17,8 @@ class EpisodeListViewController: UITableViewController {
         self.model = model
         
         super.init(nibName: nil, bundle: nil)
+        
+        self.title = "Episodios"
     }
     
     required init?(coder aDecoder: NSCoder) {
